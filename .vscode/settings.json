@@ -1,0 +1,23 @@
+{
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": "'zero', 'ss02', 'ss03', 'ss04', 'ss05', 'calt'",
+	"workbench.iconTheme": "material-icon-theme",
+	"prettier.printWidth": 140,
+	"prettier.semi": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"editor.codeActionsOnSave": {
+		"quickfix.insertSemicolon": true
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"prettier.singleQuote": true,
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"window.zoomLevel": -1,
+	"javascript.updateImportsOnFileMove.enabled": "always"
+}
