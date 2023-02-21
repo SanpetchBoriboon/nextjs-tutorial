@@ -1,7 +1,8 @@
-const Page = () => {
+const Page = (props) => {
+	const { title } = props;
 	return (
 		<div>
-			<h1>Events page</h1>
+			<h1>{title}</h1>
 			<div>
 				<a href="">
 					<img />
@@ -21,3 +22,11 @@ const Page = () => {
 };
 
 export default Page;
+
+export const getServerSideProps = () => {
+	return {
+		props: {
+			title: 'Hello world!',
+		},
+	};
+};
